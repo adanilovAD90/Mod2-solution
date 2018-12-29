@@ -17,7 +17,8 @@ h2 {
   top: 0px;
   right: 0px;
   border: 1px solid black;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
 }
 .chicken {
   background-color: red;
@@ -28,10 +29,6 @@ h2 {
 
 .sushi {
   background-color: yellow;
-}
-
-div {
-  margin: 5px;
 }
 
 #p1, #p2, #p3 {
@@ -47,39 +44,48 @@ div {
 /********** Large devices only **********/
 @media (min-width: 992px) {
   #p1 {
-    width: 33.33%;
+    width: 31.33%;
+    margin: 1%;
   }
   #p2 {
-    width: 33.33%;
+    width: 31.33%;
+    margin: 1%;
   }
   #p3 {
-    width: 33.33%;
+    width: 31.33%;
+    margin: 1%;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   #p1 {
-    width: 50%;
+    width: 48%;
+    margin: 1%;
   }
   #p2 {
-    width: 50%;
+    width: 48%;
+    margin: 1%;
   }
   #p3 {
-    width: 100%;
+    width: 98%;
+    margin: 1%;
   }
 }
 
 /********** Small devices only **********/
 @media (max-width: 767px) {
   #p1 {
-    width: 100%;
+    width: 98%;
+    margin: 1%;
   }
   #p2 {
-    width: 100%;
+    width: 98%;
+    margin: 1%;
   }
   #p3 {
-    width: 100%;
+    width: 98%;
+    margin: 1%;
   }
 }
 }
